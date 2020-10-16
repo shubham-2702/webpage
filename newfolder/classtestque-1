@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<style>
+body { 
+  background: url(https://images.unsplash.com/photo-1602742674940-82a69b00a1ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.align {
+text-align:center;
+color : black;
+margin : auto;
+padding : auto;
+}
+.upper {
+text-transform:uppercase;
+color:red;
+}
+.lower
+{
+text-transform:lowercase;
+color:blue;
+}
+button
+{
+transition : all 3s;
+background-color:yellow;
+box-shadow: 2px 2px 5px green;
+}
+button:hover 
+{
+background-color:red;
+border-color:3px solid orange;
+transform:scale(2,1.5);
+border-radius:20px;
+background-color:black;
+color:red;
+}
+</style>
+</head>
+<body class="align">
+<h1 class="upper">Shubham Singh<br>1906063</h1>
+<h2 class="lower" >WEB ASSIGNMENT</h2>
+<button type="button">Know more</button>
+
+</body>
+</html>
+
